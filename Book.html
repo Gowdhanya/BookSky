@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookSky</title>
+    <link rel="stylesheet" href="Book.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <h1>BookSky</h1>
+    </div>
+    <div class="container">
+        <form class="bookform">
+            <input id="book-name" placeholder="Enter The Book Name">
+            <input id="author" placeholder="Enter The Author Name">
+            <textarea id="description" placeholder="Enter The Description"></textarea>
+            <button class="book-add">Add</button>
+            <button class="book-cancel">Cancel</button>
+        </form>
+    </div>
+    <div class="box">
+        <div class="box-container">
+            <h1>You Can Win</h1>
+            <h2>Shiv Khera</h2>
+            <p>You Can Win by Shiv Khera is a motivational self-help book that focuses on building a positive
+                attitude and strong character. It explains that success comes from the right mindset, discipline, and
+                consistent action. The book shares practical advice and real-life examples to help readers develop
+                confidence and achieve their goals.
+            </p>
+            <button onclick="bookdlt(event)">Delete</button>
+        </div>
+    </div>
+
+    <button id="btn">+</button>
+    <script src="Book.js"></script>
+
+</body>
+
+</html>
